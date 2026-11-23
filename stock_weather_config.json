@@ -1,0 +1,254 @@
+{
+  "fomc": {
+    "meetingLabel": "12월 FOMC (12/10 새벽 04:00)",
+    "meetingDate": "2026-12-10",
+    "currentRange": "3.75% ~ 4.00%",
+    "currentEffr": 3.88,
+    "primaryTicker": "ZQF27.CBT",
+    "secondaryTicker": "ZQZ26.CBT",
+    "dotPlotTitle": "연준 점도표 (2026년 9월 FOMC 공식)",
+    "dotPlotYearEndTarget": 4.10,
+    "dotPlotPoints": [
+      { "period": "현재", "medianRate": 3.88, "note": "3.75~4.00% (10월 동결)" },
+      { "period": "2026말", "medianRate": 4.10, "note": "18명 중 12명 1회 인상, 4명 2회 인상" },
+      { "period": "2027말", "medianRate": 4.10, "note": "고금리 장기 유지 전망" },
+      { "period": "2028말", "medianRate": 3.90, "note": "완만한 금리 인하 시작" },
+      { "period": "2029말", "medianRate": 3.60, "note": "점진적 정상화 경로" },
+      { "period": "장기", "medianRate": 3.20, "note": "연준 장기 중립금리 목표" }
+    ]
+  },
+  "macroEvents": [
+    {
+      "name": "미국 개인소비지출 물가 (PCE)",
+      "dateStr": "2026-11-25",
+      "timeKst": "밤 22:30",
+      "previousValue": "발표 대기",
+      "latestValue": "10월분 예정",
+      "signal": "NEUTRAL",
+      "favorablePercent": 50,
+      "beginnerTip": "연준이 가장 중시하는 물가 지표입니다. 예상보다 낮게 나오면 호재로 작용합니다."
+    },
+    {
+      "name": "미국 비농업 고용 · 실업률",
+      "dateStr": "2026-12-04",
+      "timeKst": "밤 22:30",
+      "previousValue": "실업률 4.2%",
+      "latestValue": "+16.5만건 / 4.1%",
+      "signal": "NEUTRAL",
+      "favorablePercent": 52,
+      "beginnerTip": "고용이 예상보다 탄탄해 경기 침체 우려는 덜었지만, 금리 인하 기대감은 다소 줄었습니다."
+    },
+    {
+      "name": "FOMC 기준금리 결정",
+      "dateStr": "2026-12-10",
+      "timeKst": "새벽 04:00",
+      "previousValue": "3.75~4.00%",
+      "latestValue": "3.75~4.00% 동결",
+      "signal": "NEUTRAL",
+      "favorablePercent": 48,
+      "beginnerTip": "10월 회의에서 동결했으나 소수의견 2명이 인상을 주장했습니다. 12월 새 점도표가 핵심입니다."
+    },
+    {
+      "name": "미국 소비자물가지수 (CPI)",
+      "dateStr": "2026-12-10",
+      "timeKst": "밤 22:30",
+      "previousValue": "전월비 +0.6%",
+      "latestValue": "전월비 +0.4%",
+      "signal": "BAD",
+      "favorablePercent": 28,
+      "beginnerTip": "전달보다 상승 폭은 줄었지만 여전히 물가 압력이 높아 금리 부담 요인으로 남아 있습니다."
+    },
+    {
+      "name": "미국 생산자물가지수 (PPI)",
+      "dateStr": "2026-12-15",
+      "timeKst": "밤 22:30",
+      "previousValue": "전월비 +1.4%",
+      "latestValue": "전월비 +0.3%",
+      "signal": "GOOD",
+      "favorablePercent": 76,
+      "beginnerTip": "기업 도매 물가 상승세가 전달(+1.4%) 대비 크게 진정되어 인플레이션 우려를 덜어주었습니다."
+    }
+  ],
+  "calendarEvents": [
+    {
+      "title": "미국 개인소비지출 물가 (PCE) 발표",
+      "country": "미국",
+      "category": "MACRO",
+      "dateStr": "2026-11-25",
+      "timeKst": "밤 22:30",
+      "hour24": 22,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "연준이 금리 결정 시 가장 우선시하는 핵심 물가 지표"
+    },
+    {
+      "title": "미국 증시 휴장 (추수감사절)",
+      "country": "미국",
+      "category": "HOLIDAY",
+      "dateStr": "2026-11-26",
+      "timeKst": "종일 휴장",
+      "hour24": 9,
+      "minute": 0,
+      "isAllDay": true,
+      "importance": 2,
+      "note": "미국 뉴욕증시·나스닥 정규장 전면 휴장 (글로벌 거래량 감소)"
+    },
+    {
+      "title": "미국 증시 조기 폐장 (블랙프라이데이)",
+      "country": "미국",
+      "category": "HOLIDAY",
+      "dateStr": "2026-11-27",
+      "timeKst": "새벽 03:00 마감",
+      "hour24": 23,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 2,
+      "note": "미 동부시간 오후 1시(한국 토요일 새벽 3시) 조기 마감"
+    },
+    {
+      "title": "미국 11월 비농업 고용 · 실업률 발표",
+      "country": "미국",
+      "category": "MACRO",
+      "dateStr": "2026-12-04",
+      "timeKst": "밤 22:30",
+      "hour24": 22,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "미국 경기 체력과 연준 금리 경로를 가르는 핵심 고용 지표"
+    },
+    {
+      "title": "미국 FOMC 기준금리 결정 & 새 점도표",
+      "country": "미국",
+      "category": "MACRO",
+      "dateStr": "2026-12-10",
+      "timeKst": "새벽 04:00",
+      "hour24": 4,
+      "minute": 0,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "연준 기준금리 결정, 연준 의장 기자회견 및 신규 점도표(SEP) 공개"
+    },
+    {
+      "title": "한국 선물·옵션 동시 만기일 (네 마녀의 날)",
+      "country": "한국",
+      "category": "EXPIRY",
+      "dateStr": "2026-12-10",
+      "timeKst": "장중 ~ 15:30",
+      "hour24": 9,
+      "minute": 0,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "분기별 파생상품 동시 만기로 장 막판 외국인 프로그램 수급 변동성 주의"
+    },
+    {
+      "title": "미국 11월 소비자물가지수 (CPI) 발표",
+      "country": "미국",
+      "category": "MACRO",
+      "dateStr": "2026-12-10",
+      "timeKst": "밤 22:30",
+      "hour24": 22,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "인플레이션 둔화 여부 확인, 미 국채금리 및 나스닥 즉각 반응"
+    },
+    {
+      "title": "브로드컴 (AVGO) 분기 실적 발표",
+      "country": "미국",
+      "category": "EARNINGS",
+      "dateStr": "2026-12-11",
+      "timeKst": "장 마감 후",
+      "hour24": 6,
+      "minute": 0,
+      "isAllDay": false,
+      "importance": 2,
+      "note": "AI 맞춤형 반도체·데이터센터 수요 풍향계 (국내 반도체주 영향)"
+    },
+    {
+      "title": "미국 11월 생산자물가지수 (PPI) 발표",
+      "country": "미국",
+      "category": "MACRO",
+      "dateStr": "2026-12-15",
+      "timeKst": "밤 22:30",
+      "hour24": 22,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 2,
+      "note": "도매 물가 추이를 통해 향후 소비자물가(CPI) 압력 선행 진단"
+    },
+    {
+      "title": "마이크론 (MU) 분기 실적 발표",
+      "country": "미국",
+      "category": "EARNINGS",
+      "dateStr": "2026-12-17",
+      "timeKst": "장 마감 후",
+      "hour24": 6,
+      "minute": 0,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "글로벌 메모리·HBM 업황 풍향계 (삼성전자·SK하이닉스 직접 연동)"
+    },
+    {
+      "title": "미국 네 마녀의 날 (선물·옵션 동시 만기)",
+      "country": "미국",
+      "category": "EXPIRY",
+      "dateStr": "2026-12-18",
+      "timeKst": "미국 정규장",
+      "hour24": 23,
+      "minute": 30,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "미국 분기 파생상품 동시 만기일로 대형주 거래량 및 장중 변동성 확대"
+    },
+    {
+      "title": "한·미 증시 동시 휴장 (성탄절)",
+      "country": "한·미",
+      "category": "HOLIDAY",
+      "dateStr": "2026-12-25",
+      "timeKst": "종일 휴장",
+      "hour24": 9,
+      "minute": 0,
+      "isAllDay": true,
+      "importance": 2,
+      "note": "한국·미국 주식시장 성탄절 공휴일 휴장"
+    },
+    {
+      "title": "한국 증시 2026년 연말 폐장일",
+      "country": "한국",
+      "category": "HOLIDAY",
+      "dateStr": "2026-12-30",
+      "timeKst": "15:30 마감",
+      "hour24": 9,
+      "minute": 0,
+      "isAllDay": false,
+      "importance": 2,
+      "note": "2026년 마지막 거래일 (12월 31일은 연말 휴장일)"
+    },
+    {
+      "title": "한·미 증시 동시 휴장 (신정)",
+      "country": "한·미",
+      "category": "HOLIDAY",
+      "dateStr": "2027-01-01",
+      "timeKst": "종일 휴장",
+      "hour24": 9,
+      "minute": 0,
+      "isAllDay": true,
+      "importance": 2,
+      "note": "2027년 새해 첫날 한국·미국 증시 휴장"
+    },
+    {
+      "title": "삼성전자 4분기 잠정실적 발표 (예정)",
+      "country": "한국",
+      "category": "EARNINGS",
+      "dateStr": "2027-01-08",
+      "timeKst": "오전 08:40",
+      "hour24": 8,
+      "minute": 40,
+      "isAllDay": false,
+      "importance": 3,
+      "note": "국내 어닝 시즌 개막을 알리는 코스피 최대 실적 이벤트"
+    }
+  ]
+}
